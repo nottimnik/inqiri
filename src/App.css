@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("bootstrap/dist/css/bootstrap.min.css");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+button,
+input {
+  font-family: "Inter", sans-serif;
+}
+
+h1 h2 h3 h4 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(33, 97, 220);
+  font-size: 18px;
+}
+
+a:hover {
+  color: rgb(62, 128, 252);
+  text-decoration: underline;
+}
+
+body {
+  background-color: #e5e5e5;
+}
