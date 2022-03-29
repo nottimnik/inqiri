@@ -1,4 +1,4 @@
-![Inqiri Logo](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fchicagotonight.wttw.com%2Fsites%2Fdefault%2Ffiles%2Ffield%2Fimage%2Fbrain-512758_1280.png&f=1&nofb=1 "a title")
+<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fchicagotonight.wttw.com%2Fsites%2Fdefault%2Ffiles%2Ffield%2Fimage%2Fbrain-512758_1280.png&f=1&nofb=1" alt="logo" width="150px"/>
 
 # Inqiri
 
