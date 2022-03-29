@@ -8,4 +8,4 @@ Check the live version: https://inqiri.web.app
 
 # You can contribute with anything
 
-You can add a article by editing the /src/config/data.js, if its not a retarded article it will be added.
+You can add a article by editing the `/src/config/data.js`, if its not a retarded article it will be added.
