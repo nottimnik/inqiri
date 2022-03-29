@@ -1,7 +1,9 @@
 .blogList-wrap {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {

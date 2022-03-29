@@ -35,7 +35,7 @@ const Blog = () => {
             <img
               src={blog.cover}
               alt="cover"
-              width="10%"
+              width="20%"
               style={{ borderRadius: "10px" }}
             />
 
