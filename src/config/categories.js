@@ -2,7 +2,7 @@ export const categories = [
   {
     logo: "/categories/life.jfif",
     name: "Philosophies",
-    topics: "2",
+    topics: "3",
     link: "/wiki/philosophies",
   },
   {

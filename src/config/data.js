@@ -1,5 +1,92 @@
 export const blogList = [
   {
+    id: "finitism",
+    title: "Finitism",
+    shortDescription: (
+      <>
+        Finitism is a philosophy of mathematics that accepts the existence only
+        of finite mathematical objects. It is best understood in comparison to
+        the mainstream philosophy of mathematics where infinite mathematical
+        objects (e.g., infinite sets) are accepted as legitimate.
+      </>
+    ),
+    description: (
+      <>
+        Finitism is a philosophy of mathematics that accepts the existence only
+        of finite mathematical objects. It is best understood in comparison to
+        the mainstream philosophy of mathematics where infinite mathematical
+        objects (e.g., infinite sets) are accepted as legitimate.
+        <br />
+        <br />
+        <h3>Main idea</h3>
+        <hr />
+        The main idea of finitistic mathematics is not accepting the existence
+        of infinite objects such as infinite sets. While all natural numbers are
+        accepted as existing, the set of all natural numbers is not considered
+        to exist as a mathematical object. Therefore quantification over
+        infinite domains is not considered meaningful. The mathematical theory
+        often associated with finitism is Thoralf Skolem's primitive recursive
+        arithmetic.
+        <br />
+        <br />
+        <h3>History</h3>
+        <hr />
+        The introduction of infinite mathematical objects occurred a few
+        centuries ago when the use of infinite objects was already a
+        controversial topic among mathematicians. The issue entered a new phase
+        when Georg Cantor in 1874 introduced what is now called naive set theory
+        and used it as a base for his work on transfinite numbers. When
+        paradoxes such as Russell's paradox, Berry's paradox and the
+        Burali-Forti paradox were discovered in Cantor's naive set theory, the
+        issue became a heated topic among mathematicians.
+        <br />
+        <br />
+        There were various positions taken by mathematicians. All agreed about
+        finite mathematical objects such as natural numbers. However there were
+        disagreements regarding infinite mathematical objects. One position was
+        the intuitionistic mathematics that was advocated by L. E. J. Brouwer,
+        which rejected the existence of infinite objects until they are
+        constructed.
+        <br />
+        <br />
+        Another position was endorsed by David Hilbert: finite mathematical
+        objects are concrete objects, infinite mathematical objects are ideal
+        objects, and accepting ideal mathematical objects does not cause a
+        problem regarding finite mathematical objects. More formally, Hilbert
+        believed that it is possible to show that any theorem about finite
+        mathematical objects that can be obtained using ideal infinite objects
+        can be also obtained without them. Therefore allowing infinite
+        mathematical objects would not cause a problem regarding finite objects.
+        This led to Hilbert's program of proving both consistency and
+        completeness of set theory using finitistic means as this would imply
+        that adding ideal mathematical objects is conservative over the
+        finitistic part. Hilbert's views are also associated with the formalist
+        philosophy of mathematics. Hilbert's goal of proving the consistency and
+        completeness of set theory or even arithmetic through finitistic means
+        turned out to be an impossible task due to Kurt Gödel's incompleteness
+        theorems. However, Harvey Friedman's grand conjecture would imply that
+        most mathematical results are provable using finitistic means.
+        <br />
+        <br />
+        Hilbert did not give a rigorous explanation of what he considered
+        finitistic and referred to as elementary. However, based on his work
+        with Paul Bernays some experts such as William Tait have argued that the
+        primitive recursive arithmetic can be considered an upper bound on what
+        Hilbert considered finitistic mathematics.
+        <br />
+        <br />
+        As a result of Gödel's theorems, as it became clear that there is no
+        hope of proving both the consistency and completeness of mathematics,
+        and with the development of seemingly consistent axiomatic set theories
+        such as Zermelo–Fraenkel set theory, most modern mathematicians do not
+        focus on this topic. Today, most mathematicians are considered Platonist
+        and readily use infinite mathematical objects and a set-theoretical
+        universe.
+      </>
+    ),
+    cover: "/images/finitism.jfif",
+  },
+  {
     id: "philosophies",
     title: "Philosophies",
     shortDescription: (
@@ -21,6 +108,9 @@ export const blogList = [
           </li>
           <li>
             <a href="/wiki/nihilism">Nihilism</a>
+          </li>
+          <li>
+            <a href="/wiki/finitism">Finitism</a>
           </li>
         </ul>
       </>
