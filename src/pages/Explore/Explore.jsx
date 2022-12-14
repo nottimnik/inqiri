@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Card } from "react-bootstrap";
 import { categories } from "../../config/categories";
 import { Link } from "react-router-dom";
 
@@ -19,27 +18,113 @@ export default function Explore() {
         }}
       >
         {categories.map((category) => (
-          <Card
-            style={{
-              padding: "20px",
-              marginRight: "10px",
-              marginLeft: "10px",
-              marginTop: "10px",
-            }}
-          >
-            <Logo>
-              <img src={category.logo} width="90px" height="90px" />
-            </Logo>
-            <Link to={category.link}>
-              <Title>{category.name}</Title>
+          <Box>
+            <Link
+              to={category.link}
+              style={{
+                margin: "0px",
+                color: "inherit",
+                textDecoration: "none",
+              }}
+            >
+              <Header>
+                <Logo>
+                  <img src={category.logo} width="100px" height="100px" />
+                </Logo>
+
+                <Title>{category.name}</Title>
+                <Topic>{category.topics} Topics</Topic>
+              </Header>
             </Link>
-            <Topic>{category.topics} Topics</Topic>
-          </Card>
+            <hr
+              style={{ height: "2px", marginTop: "0px", marginBottom: "10px" }}
+            />
+            <BoxContent>
+              <Link
+                to={`/wiki/${category.article1_link}`}
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                <span>
+                  <img
+                    src={category.article1_logo}
+                    width="50px"
+                    height="50px"
+                  />{" "}
+                  <h1>{category.article1_title}</h1>
+                </span>
+              </Link>
+              <Link
+                to={`/wiki/${category.article2_link}`}
+                style={{
+                  color: "inherit",
+                  textDecoration: "none",
+                }}
+              >
+                <span>
+                  <img
+                    src={category.article2_logo}
+                    width="50px"
+                    height="50px"
+                  />{" "}
+                  <h1>{category.article2_title}</h1>
+                </span>
+              </Link>
+            </BoxContent>
+          </Box>
         ))}
       </div>
     </div>
   );
 }
+
+const Header = styled.div`
+  padding: 10px;
+  padding-bottom: 2px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #f4f4f4;
+    text-decoration: none;
+    color: inherit;
+  }
+`;
+
+const BoxContent = styled.div`
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  span {
+    display: flex;
+    margin-bottom: 10px;
+
+    img {
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-left: 5px;
+    }
+
+    &:hover {
+      background-color: #f4f4f4;
+      border-radius: 5px;
+    }
+  }
+`;
+
+const Box = styled.div`
+  background-color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 2px solid #d3d3d3;
+  margin-bottom: 20px;
+
+  width: 40%;
+`;
 
 const Logo = styled.div`
   img {
@@ -47,10 +132,15 @@ const Logo = styled.div`
   }
 `;
 
-const Title = styled.h3`
+const Title = styled.h1`
   margin-top: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0px;
 `;
 
-const Topic = styled.p``;
+const Topic = styled.p`
+  font-size: 18px;
+`;
 
 const Description = styled.div``;
