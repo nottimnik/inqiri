@@ -8,7 +8,11 @@ export default function Explore() {
     <div>
       <br />
 
-      <h3 style={{ textAlign: "center" }}>Explore</h3>
+      <h3
+        style={{ textAlign: "center", fontSize: "30px", marginBottom: "25px" }}
+      >
+        Explore
+      </h3>
 
       <div
         style={{
