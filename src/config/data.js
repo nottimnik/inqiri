@@ -1,5 +1,490 @@
 export const blogList = [
   {
+    id: "utilitarianism",
+    title: "Utilitarianism",
+    shortDescription: <></>,
+    description: (
+      <>
+        In ethical philosophy, utilitarianism is a family of normative ethical
+        theories that prescribe actions that maximize happiness and well-being
+        for all affected individuals.
+        <br /> <br />
+        Although different varieties of utilitarianism admit different
+        characterizations, the basic idea behind all of them is, in some sense,
+        to maximize utility, which is often defined in terms of well-being or
+        related concepts. For instance, Jeremy Bentham, the founder of
+        utilitarianism, described utility as:
+        <br /> <br />
+        That property in any object, whereby it tends to produce benefit,
+        advantage, pleasure, good, or happiness ... [or] to prevent the
+        happening of mischief, pain, evil, or unhappiness to the party whose
+        interest is considered.
+        <br /> <br />
+        Utilitarianism is a version of consequentialism, which states that the
+        consequences of any action are the only standard of right and wrong.
+        Unlike other forms of consequentialism, such as egoism and altruism,
+        utilitarianism considers the interests of all sentient beings equally.
+        Proponents of utilitarianism have disagreed on a number of issues, such
+        as whether actions should be chosen based on their likely results (act
+        utilitarianism), or whether agents should conform to rules that maximize
+        utility (rule utilitarianism). There is also disagreement as to whether
+        total utility (total utilitarianism), average utility (average
+        utilitarianism) or the utility of the people worst-off should be
+        maximized.
+        <br /> <br />
+        Though the seeds of the theory can be found in the hedonists Aristippus
+        and Epicurus, who viewed happiness as the only good, and in the work of
+        the medieval Indian philosopher Śāntideva, the tradition of modern
+        utilitarianism began with Jeremy Bentham, and continued with such
+        philosophers as John Stuart Mill, Henry Sidgwick, R. M. Hare, and Peter
+        Singer. The concept has been applied towards social welfare economics,
+        the crisis of global poverty, the ethics of raising animals for food,
+        and the importance of avoiding existential risks to humanity.
+        <br /> <br />
+        Article from{" "}
+        <a href="wikipedia.com" target="_blank">
+          wikipedia.com
+        </a>
+      </>
+    ),
+    cover: "/images/utilitarianism.png",
+  },
+  {
+    id: "optimism",
+    title: "Optimism",
+    shortDescription: <></>,
+    description: (
+      <>
+        Optimism is an attitude reflecting a belief or hope that the outcome of
+        some specific endeavor, or outcomes in general, will be positive,
+        favorable, and desirable. A common idiom used to illustrate optimism
+        versus pessimism is a glass filled with water to the halfway point: an
+        optimist is said to see the glass as half full, while a pessimist sees
+        the glass as half empty.
+        <br /> <br />
+        The term derives from the Latin optimum, meaning "best". Being
+        optimistic, in the typical sense of the word, is defined as expecting
+        the best possible outcome from any given situation. This is usually
+        referred to in psychology as dispositional optimism. It thus reflects a
+        belief that future conditions will work out for the best. For this
+        reason, it is seen as a trait that fosters resilience in the face of
+        stress.
+        <br /> <br />
+        Theories of optimism include dispositional models and models of
+        explanatory style. Methods to measure optimism have been developed
+        within both of these theoretical approaches, such as various forms of
+        the Life Orientation Test for the original dispositional definition of
+        optimism and the Attributional Style Questionnaire designed to test
+        optimism in terms of explanatory style.
+        <br /> <br />
+        Variation in optimism and pessimism is somewhat heritable and reflects
+        biological trait systems to some degree. It is also influenced by
+        environmental factors, including family environment, with some
+        suggesting it can be learned. Optimism may also be linked to health.
+        <br /> <br />
+        Article from{" "}
+        <a href="wikipedia.com" target="_blank">
+          wikipedia.com
+        </a>
+      </>
+    ),
+    cover: "/images/optimism.png",
+  },
+  {
+    id: "pessimism",
+    title: "Pessimism",
+    shortDescription: <></>,
+    description: (
+      <>
+        Pessimism is a negative mental attitude in which an undesirable outcome
+        is anticipated from a given situation. Pessimists tend to focus on the
+        negatives of life in general. A common question asked to test for
+        pessimism is "Is the glass half empty or half full?"; in this situation,
+        a pessimist is said to see the glass as half empty, while an optimist is
+        said to see the glass as half full. Throughout history, the pessimistic
+        disposition has had effects on all major areas of thinking.
+        <br /> <br />
+        Article from{" "}
+        <a href="wikipedia.com" target="_blank">
+          wikipedia.com
+        </a>
+      </>
+    ),
+    cover: "/images/humanism.png",
+  },
+  {
+    id: "humanism",
+    title: "Humanism",
+    shortDescription: <></>,
+    description: (
+      <>
+        Humanism is a philosophical stance that emphasizes the individual and
+        social potential and agency of human beings. It considers human beings
+        the starting point for serious moral and philosophical inquiry.
+        <br /> <br />
+        The meaning of the term "humanism" has changed according to the
+        successive intellectual movements that have identified with it. During
+        the Italian Renaissance, ancient works inspired scholars in various
+        Italian cities, giving rise to a movement now called Renaissance
+        humanism. With Enlightenment, humanistic values were re-enforced by the
+        advances in science and technology, giving confidence to humans in their
+        exploration of the world. By the early 20th century, organizations
+        solely dedicated to humanism flourished in Europe and the United States,
+        and have since expanded all over the globe. In the current day, the term
+        generally refers to a focus on human well-being and advocates for human
+        freedom, autonomy, and progress. It views humanity as responsible for
+        the promotion and development of individuals, espouses the equal and
+        inherent dignity of all human beings, and emphasizes a concern for
+        humans in relation to the world.
+        <br /> <br />
+        Starting in the 20th century, humanist movements have typically been
+        non-religious and aligned with secularism. Most frequently, humanism
+        refers to a nontheistic view centered on human agency, and a reliance on
+        science and reason rather than revelation from a supernatural source to
+        understand the world. Humanists tend to advocate for human rights, free
+        speech, progressive policies, and democracy. Those with a humanist
+        worldview maintain religion is not a precondition of morality, and
+        object to excessive religious entanglement with education and the state.
+        <br /> <br />
+        Contemporary humanist organizations work under the umbrella of Humanists
+        International. Well known humanist associations are the Humanists UK and
+        the American Humanist Association.
+        <br /> <br />
+        Article from{" "}
+        <a href="wikipedia.com" target="_blank">
+          wikipedia.com
+        </a>
+      </>
+    ),
+    cover: "/images/humanism.png",
+  },
+  {
+    id: "absurdism",
+    title: "Absurdism",
+    shortDescription: <></>,
+    description: (
+      <>
+        Absurdism is the philosophical theory that existence in general is
+        absurd. This implies that the world lacks meaning or a higher purpose
+        and is not fully intelligible by reason. The term "absurd" also has a
+        more specific sense in the context of absurdism: it refers to a conflict
+        or a discrepancy between two things but there are several disagreements
+        about their exact nature. These disagreements have various consequences
+        for whether absurdism is true and for the arguments cited in favor and
+        against it. Popular accounts characterize the conflict as a collision
+        between rational man and an irrational universe, between intention and
+        outcome, or between subjective assessment and objective worth. An
+        important aspect of absurdism is its claim that the world as a whole is
+        absurd. It differs in this regard from the uncontroversial and less
+        global thesis that some particular situations, persons, or phases in
+        life are absurd.
+        <br /> <br />
+        Various components of the absurd are discussed in the academic
+        literature and different theorists frequently concentrate their
+        definition and research on different components. On the practical level,
+        the conflict underlying the absurd is characterized by the individual's
+        struggle to find meaning in a meaningless world. The theoretical
+        component, on the other hand, emphasizes more the epistemic inability of
+        reason to penetrate and understand reality. Traditionally, the conflict
+        is characterized as a collision between an internal component, belonging
+        to human nature, and an external component, belonging to the nature of
+        the world. However, some later theorists have suggested that both
+        components may be internal: the capacity to see through the
+        arbitrariness of any ultimate purpose, on the one hand, and the
+        incapacity to stop caring about such purposes, on the other hand.
+        Certain accounts also involve a metacognitive component by holding that
+        an awareness of the conflict is necessary for the absurd to arise.
+        <br /> <br />
+        Some arguments in favor of absurdism focus on the human insignificance
+        in the universe, on the role of death, or on the implausibility or
+        irrationality of positing an ultimate purpose. Objections to absurdism
+        often contend that life is in fact meaningful or point out certain
+        problematic consequences or inconsistencies of absurdism. Defenders of
+        absurdism often complain that it does not receive the attention of
+        professional philosophers it merits in virtue of the topic's importance
+        and its potential psychological impact on the affected individuals in
+        the form of existential crises. Various possible responses to deal with
+        absurdism and its impact have been suggested. The three responses
+        discussed in the traditional absurdist literature are suicide, religious
+        belief in a higher purpose, and rebellion against the absurd. Of these,
+        rebellion is usually presented as the recommended response since, unlike
+        the other two responses, it does not escape the absurd and instead
+        recognizes it for what it is. Later theorists have suggested additional
+        responses, like using irony to take life less seriously or remaining
+        ignorant of the responsible conflict. Some absurdists argue that whether
+        and how one responds is insignificant. This is based on the idea that if
+        nothing really matters then the human response toward this fact does not
+        matter either.
+        <br /> <br />
+        The term "absurdism" is most closely associated with the philosophy of
+        Albert Camus. However, important precursors and discussions of the
+        absurd are also found in the works of Søren Kierkegaard. Absurdism is
+        intimately related to various other concepts and theories. Its basic
+        outlook is inspired by existentialist philosophy. However,
+        existentialism includes additional theoretical commitments and often
+        takes a more optimistic attitude toward the possibility of finding or
+        creating meaning in one's life. Absurdism and nihilism share the belief
+        that life is meaningless. But absurdists do not treat this as an
+        isolated fact and are instead interested in the conflict between the
+        human desire for meaning and the world's lack thereof. Being confronted
+        with this conflict may trigger an existential crisis, in which
+        unpleasant experiences like anxiety or depression may push the affected
+        to find a response for dealing with the conflict. Recognizing the
+        absence of objective meaning, however, does not preclude the conscious
+        thinker from finding subjective meaning in arbitrary places.
+        <br /> <br />
+        Article from{" "}
+        <a href="wikipedia.com" target="_blank">
+          wikipedia.com
+        </a>
+      </>
+    ),
+    cover: "/images/absurdism.png",
+  },
+  {
+    id: "marxism",
+    title: "Marxism",
+    shortDescription: <></>,
+    description: (
+      <>
+        Marxism is a left-wing to far-left method of socioeconomic analysis that
+        uses a materialist interpretation of historical development, better
+        known as historical materialism, to understand class relations and
+        social conflict and a dialectical perspective to view social
+        transformation. It originates from the works of 19th-century German
+        philosophers Karl Marx and Friedrich Engels. As Marxism has developed
+        over time into various branches and schools of thought, no single,
+        definitive Marxist theory exists.
+        <hr />
+        In addition to the schools of thought which emphasize or modify elements
+        of classical Marxism, various Marxian concepts have been incorporated
+        and adapted into a diverse array of social theories leading to widely
+        varying conclusions. Alongside Marx's critique of political economy, the
+        defining characteristics of Marxism have often been described using the
+        terms dialectical materialism and historical materialism, though these
+        terms were coined after Marx's death and their tenets have been
+        challenged by some self-described Marxists.
+        <br />
+        <br />
+        Marxism has had a profound impact on global academia, having influenced
+        many fields, including anthropology, archaeology, art theory,
+        criminology, cultural studies, economics, education, ethics, film
+        theory, geography, historiography, literary criticism, media studies,
+        philosophy, political science, political economy, psychology, science
+        studies, sociology, urban planning, and theatre.
+        <br /> <br />
+        Article from{" "}
+        <a href="wikipedia.com" target="_blank">
+          wikipedia.com
+        </a>
+      </>
+    ),
+    cover: "/images/marxism.png",
+  },
+  {
+    id: "hedonism",
+    title: "Hedonism",
+    shortDescription: (
+      <>
+        Hedonism refers to a family of theories, all of which have in common
+        that pleasure plays a central role in them. Psychological or
+        motivational hedonism claims that human behavior is determined by
+        desires to increase pleasure and to decrease pain. Normative or ethical
+        hedonism, on the other hand, is not about how we actually act but how we
+        ought to act: we should pursue pleasure and avoid pain. Axiological
+        hedonism, which is sometimes treated as a part of ethical hedonism, is
+        the thesis that only pleasure has intrinsic value. Applied to well-being
+        or what is good for someone, it is the thesis that pleasure and
+        suffering are the only components of well-being. These technical
+        definitions of hedonism within philosophy, which are usually seen as
+        respectable schools of thought, have to be distinguished from how the
+        term is used in everyday language, sometimes referred to as "folk
+        hedonism". In this sense, it has a negative connotation, linked to the
+        egoistic pursuit of short-term gratification by indulging in sensory
+        pleasures without regard for the consequences.
+      </>
+    ),
+    description: (
+      <>
+        Hedonism refers to a family of theories, all of which have in common
+        that pleasure plays a central role in them. Psychological or
+        motivational hedonism claims that human behavior is determined by
+        desires to increase pleasure and to decrease pain.Normative or ethical
+        hedonism, on the other hand, is not about how we actually act but how we
+        ought to act: we should pursue pleasure and avoid pain. Axiological
+        hedonism, which is sometimes treated as a part of ethical hedonism, is
+        the thesis that only pleasure has intrinsic value. Applied to well-being
+        or what is good for someone, it is the thesis that pleasure and
+        suffering are the only components of well-being. These technical
+        definitions of hedonism within philosophy, which are usually seen as
+        respectable schools of thought, have to be distinguished from how the
+        term is used in everyday language, sometimes referred to as "folk
+        hedonism". In this sense, it has a negative connotation, linked to the
+        egoistic pursuit of short-term gratification by indulging in sensory
+        pleasures without regard for the consequences.
+        <hr />
+        <h3>The nature of pleasure</h3>
+        <hr />
+        Pleasure plays a central role in all forms of hedonism; it refers to
+        experience that feels good and involves the enjoyment of something.
+        Pleasure contrasts with pain or suffering, which are forms of feeling
+        bad. Discussions within hedonism usually focus more on pleasure, but as
+        its negative side, pain is equally implied in these discussions. Both
+        pleasure and pain come in degrees and have been thought of as a
+        dimension going from positive degrees through a neutral point to
+        negative degrees. The term "happiness" is often used in this tradition
+        to refer to the balance of pleasure over pain.
+        <br />
+        <br />
+        In everyday language, the term "pleasure" is primarily associated with
+        sensory pleasures like the enjoyment of food or sex. But in its most
+        general sense, it includes all types of positive or pleasant experiences
+        including the enjoyment of sports, seeing a beautiful sunset or engaging
+        in an intellectually satisfying activity. Theories of pleasure try to
+        determine what all these pleasurable experiences have in common, what is
+        essential to them. They are traditionally divided into quality theories
+        and attitude theories. Quality theories hold that pleasure is a quality
+        of pleasurable experiences themselves while attitude theories state that
+        pleasure is in some sense external to the experience since it depends on
+        the subject's attitude to the experience.
+        <br />
+        <br />
+        The plausibility of the various versions of hedonism is affected by how
+        the nature of pleasure is conceived.An important appeal of most forms of
+        hedonism is that they are able to give a simple and unified account of
+        their respective fields. But this is only possible if pleasure itself is
+        a unified phenomenon. This has been put into question, mainly due to the
+        wide variety of pleasure experiences which seem to have no one shared
+        feature in common. One way open to quality theorists to respond to this
+        objection is by pointing out that the hedonic tone of
+        pleasure-experiences is not a regular quality but a higher-order
+        quality. Attitude theories have an easier way to reply to this argument
+        since they may hold that it is the same type of attitude, often
+        identified with desire, that is common to all pleasurable experiences.
+        <br />
+        <br />
+        <h3>Psychological hedonism</h3>
+        <hr />
+        Psychological hedonism, also known as motivational hedonism, is an
+        empirical theory about what motivates us: it states that all our actions
+        aim at increasing pleasure and avoiding pain. This is usually understood
+        in combination with egoism, i.e. that each person only aims at their own
+        happiness. Our actions rely on beliefs about what causes pleasure. False
+        beliefs may mislead us and thus our actions may fail to result in
+        pleasure, but even failed actions are motivated by considerations of
+        pleasure, according to psychological hedonism. The paradox of hedonism
+        concerns the thesis that pleasure-seeking behavior is actually
+        self-defeating in the sense that it results in less actual pleasure than
+        would result from following other motives.
+        <br /> <br />
+        Psychological hedonism gives a straightforward theory explaining the
+        totality of human behavior. It has intuitive plausibility because
+        pleasure-seeking behavior is a common phenomenon, and may indeed
+        dominate human conduct at times; however, the generalization of
+        psychological hedonism as an explanation for all behavior is highly
+        controversial. Critics point to counterexamples involving actions that
+        seem to have no plausible explanation in terms of pleasure, such as
+        egoistic motives for things other than pleasure (e.g. health,
+        self-improvement, post-mortem fame), and altruistic motives (e.g.
+        pursuing one's child's happiness, sacrificing one's life for a greater
+        cause).Psychological hedonists reinterpret such cases in terms of
+        pleasure-seeking behavior, for example positing that seeing one's
+        children happy or knowing that one's death will have been meaningful
+        brings pleasure to the person sacrificing their immediate pleasure.
+        <br /> <br />
+        Critics also contend that, via introspection, one can conclude that
+        pursuit of pleasure is only one type of motivating force among others,
+        and that reinterpreting every case in terms of pleasure/pain contradicts
+        this.Critics also contend that psychological hedonism's basic claim of
+        what motivates humans falls within the realm of the science of
+        psychology rather than philosophy, and as such demands experimental
+        evidence to confirm or contradict it.
+        <br />
+        <br />
+        Article from{" "}
+        <a href="wikipedia.com" target="_blank">
+          wikipedia.com
+        </a>
+      </>
+    ),
+    cover: "/images/hedonism.png",
+  },
+  {
+    id: "existentialism",
+    title: "Existentialism",
+    shortDescription: (
+      <>
+        Existentialism is the philosophical belief we are each responsible for
+        creating purpose or meaning in our own lives. Our individual purpose and
+        meaning is not given to us by Gods, governments, teachers or other
+        authorities.
+      </>
+    ),
+    description: (
+      <>
+        Existentialism is the philosophical belief we are each responsible for
+        creating purpose or meaning in our own lives. Our individual purpose and
+        meaning is not given to us by Gods, governments, teachers or other
+        authorities.
+        <hr />
+        Existentialism is a form of philosophical inquiry that explores the
+        problem of human existence and centers on human thinking, feeling, and
+        acting. Existentialist thinkers frequently explore issues related to the
+        meaning, purpose, and value of human existence, and the role of personal
+        agency in transforming one's life. In the view of an existentialist, the
+        individual's starting point is phenomenological, grounded in the
+        immediate direct experience of life. Key concepts include "existential
+        angst", a sense of dread, disorientation, confusion, or anxiety in the
+        face of an apparently meaningless or absurd world, and also
+        authenticity, courage, and human-heartedness.
+        <br /> <br />
+        Existentialism is associated with several 19th- and 20th-century
+        European philosophers who shared an emphasis on the human subject,
+        despite often profound differences in thought. Among the earliest
+        figures associated with existentialism are philosophers Søren
+        Kierkegaard and Friedrich Nietzsche and novelist Fyodor Dostoevsky, all
+        of whom critiqued rationalism and concerned themselves with the problem
+        of meaning. In the 20th century, prominent existentialist thinkers
+        included Jean-Paul Sartre, Albert Camus, Martin Heidegger, Simone de
+        Beauvoir, Karl Jaspers, Gabriel Marcel, and Paul Tillich.
+        <br /> <br />
+        Many existentialists considered traditional systematic or academic
+        philosophies, in style and content, to be too abstract and removed from
+        concrete human experience.A primary virtue in existentialist thought is
+        authenticity. Existentialism would influence many disciplines outside of
+        philosophy, including theology, drama, art, literature, and psychology.
+        <br />
+        <br />
+        <h3>Concepts:</h3>
+        <ul>
+          <li>Existence precedes essence</li>
+          <li>The Absurd</li>
+          <li>Facticity</li>
+          <li>Authenticity</li>
+          <li>The Other and the Look</li>
+          <li>Angst and dread</li>
+          <li>Despair</li>
+        </ul>
+        <h3>Videos:</h3>
+        <ul>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=zAQYtolfB4g"
+              target="_blank"
+            >
+              https://www.youtube.com/watch?v=zAQYtolfB4g
+            </a>
+          </li>
+        </ul>
+        Information from{" "}
+        <a href="https://en.wikipedia.org/wiki/Existentialism" target="_blank">
+          wikipedia.com
+        </a>
+      </>
+    ),
+    cover: "/images/existentialism.png",
+  },
+  {
     id: "finitism",
     title: "Finitism",
     shortDescription: (
@@ -111,6 +596,30 @@ export const blogList = [
           </li>
           <li>
             <a href="/wiki/finitism">Finitism</a>
+          </li>
+          <li>
+            <a href="/wiki/existentialism">Existentialism</a>
+          </li>
+          <li>
+            <a href="/wiki/hedonism">Hedonism</a>
+          </li>
+          <li>
+            <a href="/wiki/marxism">Marxism</a>
+          </li>
+          <li>
+            <a href="/wiki/absurdism">Absurdism</a>
+          </li>
+          <li>
+            <a href="/wiki/humanism">Humanism</a>
+          </li>
+          <li>
+            <a href="/wiki/pessimism">Pessimism</a>
+          </li>
+          <li>
+            <a href="/wiki/optimism">Optimism</a>
+          </li>
+          <li>
+            <a href="/wiki/utilitarianism">Utilitarianism</a>
           </li>
         </ul>
       </>
